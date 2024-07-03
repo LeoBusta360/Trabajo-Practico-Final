@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.postimg.cc/cJjcgxCQ/Fondo-Info.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+.logo, .logo2 {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1, .logo2 h1{
+    font-size: 24px; 
+    margin: 0;
+}
+
+.logo h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+span {
+    margin-left:10px;
+    color: lightgreen;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: 'Lucida Handwriting', 'Lucida Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: black; 
+    padding: 5px 0;
+    text-align: center;
+    
+    width: 100%;
+    position: relative;
+    bottom: 70px;
+}
+
+
+footer h4, footer h3 {
+    font-size: 15px;
+    color: white;
+    bottom: 60%;
+    margin: 10px 0;
+}
+
+footer h3{
+    font-size: 30px;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+    padding: 20px;
+}
+
+.sobre-nosotros {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sobre-nosotros h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.sobre-nosotros p {
+    font-size: 18px;
+    color: #666;
+}
+
+.vision {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; 
+    max-width: 600px;   
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.vision h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.vision p {
+    font-size: 18px;
+    color: #666;
+}
